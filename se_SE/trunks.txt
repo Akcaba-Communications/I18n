@@ -50,8 +50,8 @@ trunks.insecure.port_invite.tooltip = Kombinationen innebär minimal säkerhet e
 trunks.insecure.tooltip = Möjliggör avslappnad autentisering av inkommande SIP-förfrågningar.
 trunks.music_group_id = Musik i vänteläge
 trunks.music_group_id.tooltip =
-Detta alternativ anger vilken musik i vänteläge-klass som ska föreslås till peer-kanalen när ett utgående samtal sätts i vänteläge.
-Aktivering av detta överskrider MOH-inställningen som anges i de avancerade inställningarna för externa utgående samtal.
+    Detta alternativ anger vilken musik i vänteläge-klass som ska föreslås till peer-kanalen när ett utgående samtal sätts i vänteläge.
+    Aktivering av detta överskrider MOH-inställningen som anges i de avancerade inställningarna för externa utgående samtal.
 trunks.outgoing_defaultuser = Fjärranvändarnamn
 trunks.outgoing_defaultuser.tooltip = Autentisering användarnamn för fjärrserver
 trunks.outgoing_fromdomain = Från domän
@@ -145,8 +145,8 @@ trunks.outbound_registration = Kräver registrering
 trunks.outbound_registration.tooltip = Det definierar om det krävs att registrera sig mot den fjärrservern eller VoIP-leverantören
 trunks.auth_rejection_permanent = Permanent autentiseringsavslag
 trunks.auth_rejection_permanent.tooltip =
-Om detta alternativ är aktiverat och en autentisering utmaning misslyckas, kommer registreringen inte att försökas igen förrän
-konfigurationen laddas om
+    Om detta alternativ är aktiverat och en autentisering utmaning misslyckas, kommer registreringen inte att försökas igen förrän
+    konfigurationen laddas om
 trunks.max_retries = Maximalt antal försök
 trunks.max_retries.tooltip = Maximalt antal registreringsförsök
 trunks.expiration = Utgång

@@ -1,2 +1,2 @@
-en = n==1
-annan = n!=1
+one = n==1
+other = n!=1

@@ -34,7 +34,7 @@ sms.invalid_provider = Du har valt en ogiltig SMS-leverantör.
 sms.phone_numbers = SMS-nummer
 sms.number = Nummer
 sms.number.tooltip =
-Numret för att skicka meddelande från. Det måste vara ett giltigt nummer köpt från din VoIP-leverantör med aktiverade SMS-funktioner.
+    Numret för att skicka meddelande från. Det måste vara ett giltigt nummer köpt från din VoIP-leverantör med aktiverade SMS-funktioner.
 sms.number.add = Lägg till nummer
 sms.number.edit = Redigera nummer
 sms.actions = Åtgärder
@@ -63,8 +63,8 @@ sms.sync.confirm = Denna åtgärd kommer att synkronisera numren från din lever
 sms.continue = {continue}
 sms.sync.none = Inga nummer har synkroniserats!
 sms.synced_numbers =
-[one] Ett nummer har synkroniserats!
-[other] {0} nummer har synkroniserats!
+    [one] Ett nummer har synkroniserats!
+    [other] {0} nummer har synkroniserats!
 sms.messages = Meddelanden
 sms.direction = Riktning
 sms.status = Status

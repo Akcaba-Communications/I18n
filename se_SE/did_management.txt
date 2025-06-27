@@ -1,4 +1,4 @@
- did_management = DID-hantering
+did_management = DID-hantering
 menu.did_management = {did_management}
 module.did_management = {did_management}
 did_management.general = {vitalpbx.general}

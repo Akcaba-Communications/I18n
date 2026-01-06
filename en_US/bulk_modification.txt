@@ -38,4 +38,7 @@ bulk_modification.validations.invalid_field = You have selected an invalid field
 bulk_modification.field.generate_hints = {extensions.diversion_hints}
 bulk_modification.field.vm_busy_prompt = Voicemail Busy Prompt
 bulk_modification.field.vm_unav_prompt = Voicemail Unavailable Prompt
+bulk_modification.field.callback_on_busy_transfer = {extensions.callback_on_busy_transfer}
+bulk_modification.field.ai_transcription = Voicemail Recordings Transcription
+bulk_modification.field.cid_on_diversions = {extensions.cid_on_diversions}
 

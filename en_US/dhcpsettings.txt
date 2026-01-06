@@ -24,7 +24,7 @@ dhcpsettings.mac = MAC Address
 dhcpsettings.minutes = Minutes
 dhcpsettings.ntp = NTP Server
 dhcpsettings.ntp.tooltip = Network Time Protocol (NTP) is a networking protocol to synchronize clocks between computer systems over the Internet.
-\dhcpsettings.range_end = End Address
+dhcpsettings.range_end = End Address
 dhcpsettings.range_end.tooltip = The last address on your network that can be allocated as a dynamic IP address.
 dhcpsettings.range_start = Start Address
 dhcpsettings.range_start.tooltip = The first address on your network that can be allocated as a dynamic IP address.
@@ -58,4 +58,10 @@ dhcp_server = DHCP Server
 menu.dhcp_settings = {dhcp_server}
 module.dhcpsettings ={dhcp_server}
 menu.dhcp_server = {dhcp_server}
-
+dhcpsettings.interface.all = All Interfaces (default)
+dhcpsettings.interface = Network Interface
+dhcpsettings.interface.tooltip = The network interface where dnsmasq should provide DHCP and DNS services.
+dhcpsettings.dhcp-authoritative = Authoritative DHCP Server
+dhcpsettings.dhcp-authoritative.tooltip =
+    Mark this dnsmasq instance as the primary DHCP server for this network. Enables faster IP assignment and ensures
+    clients release old leases. Enable only if no other DHCP servers (e.g., your router) are active on this network.

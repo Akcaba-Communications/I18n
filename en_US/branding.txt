@@ -71,3 +71,4 @@ branding.gui_menu_fc_active.tooltip = The text color to use when a menu item is 
 branding.disable_branding = Disable Branding
 branding.disable_branding.tooltip =
     It allows you to disable the branding customizations. When set to yes, the default PBX styles will get applied.
+branding.disable_login_bg.tooltip = When set to "Yes," the background image from the login screen is removed.

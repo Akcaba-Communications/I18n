@@ -31,3 +31,4 @@ notifications_templates.no_email_body = You have not provided a valid email body
 notifications_templates.return = Return
 notification_templates.mobile_account = Mobile Account
 notification_templates.missed_call = Missed Call
+notification_templates.call_analysis_report = Call Analysis Report

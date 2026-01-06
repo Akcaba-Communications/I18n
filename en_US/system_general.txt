@@ -89,3 +89,14 @@ system_general.play_cw_tone = Play Call Waiting Tone
 system_general.play_cw_tone.tooltip =
     When set to "Yes," the caller will hear a call waiting tone when the extension dialed is in another call.
     The tone it will sound according to the tone zone configured in the PJSIP Settings.
+system_general.limits = Capacity Management
+system_general.maximum_extensions = Maximum Extensions
+system_general.maximum_extensions.tooltip = Specify the maximum number of extensions allowed in the system. Exceeding this limit may affect performance.
+system_general.maximum_tenants = Maximum Tenants
+system_general.maximum_tenants.tooltip = Adjust the total number of tenants permitted. These limits are suggested to help ensure optimal performance, depending on your server's resources.
+system_general.maximum_queue_members = Maximum Queue Members
+system_general.maximum_queue_members.tooltip =
+    Specify the maximum number of queue members for the 'Ring All' strategy. Suggested limits aim to provide the best
+    performance for your PBX, but should be adjusted according to your server specifications.
+system_general.enable_global_limits = Enable Global Limits
+system_general.enable_global_limits.tooltip = Toggle to activate or deactivate global limits for extensions, tenants, and queue members. Consider your server's performance when modifying these values.

@@ -20,3 +20,4 @@ queues_callback_report.callback_number = CallBack Number
 queues_callback_report.tries = Tries
 queues_callback_report.actions = {actions}
 queues_callback_report.sqc.not_found = Cannot found the requested callback
+queues_callback_report.status.option.expired = Expired

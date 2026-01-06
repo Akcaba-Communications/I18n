@@ -191,3 +191,6 @@ queues.force_longest_waiting_caller.tooltip =
     When set to yes, the queue app will make sure callers are offered in order (longest waiting first), even for callers
     across multiple queues. Before a call is offered to an agent, an additional check is made to see if the agent
     is a member of another queue with a call that's been waiting longer. If so, the current call is not offered to the agent.
+queues.validation.ring_all_members_exceeded =
+    The queue cannot be created with more than {0} agents when using the "Ring All" strategy, as this exceeds the
+    maximum allowed limit. Please reduce the number of agents or select a different ring strategy.

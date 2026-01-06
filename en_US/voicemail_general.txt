@@ -75,3 +75,6 @@ voicemail_general.emaildateformat.full_time_24-hour = The time in 24-hour notati
 voicemail_general.emaildateformat.full_time_12-hour = The time in 12-hour notation
 voicemail_general.emaildateformat.timezone = The timezone name or abbreviation
 voicemail_general.emaildateformat.numeric_month = The numeric representation of a month with leading zeros.
+voicemail_general.disabled = Disabled
+voicemail_general.transcription = AI Transcription
+voicemail_general.transcription.tooltip = It allows selecting an API Key from the AI Assistants add-on to enable voicemail transcription.

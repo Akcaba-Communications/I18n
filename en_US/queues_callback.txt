@@ -58,3 +58,9 @@ queues_callback.priority = Priority
 queues_callback.priority.tooltip = It is the priority to be applied when a scheduled call enters the Queue. A higher value means higher priority.
 queues_callback.dtmf_digit = DTMF Digit
 queues_callback.dtmf_digit.tooltip = The DTMF digit that the caller has to press for requesting a callback.
+queues_callback.never = {dynamic_routing.et.never}
+queues_callback.hours =
+	[one] {0} Hour
+	[other] {0} Hours
+queues_callback.callback_timeout = Callback Timeout
+queues_callback.callback_timeout.tooltip = Set the duration(in hours) after which a queue callback will be considered expired if it remains in the 'Queued' or 'In Progress' status. Once expired, the callback will no longer be attempted. Ensure the time defined here aligns with your operational needs.

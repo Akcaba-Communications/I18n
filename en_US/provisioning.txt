@@ -465,4 +465,9 @@ provisioning.type.eventlist_presence = Event List Presence
 provisioning.type.multicast_paging_address = MultiCast Paging Address
 provisioning.type.share_line = {provisioning.type.shared_line}
 provisioning.type.application = Application
+provisioning_templates.key_expansion_modules = Key Expansion Modules
+provisioning_templates.summer_time = Summer Time
+provisioning_templates.summer_time.disabled = Disabled
+provisioning_templates.summer_time.enabled = Enabled
+provisioning_templates.summer_time.automatic = Automatic
 

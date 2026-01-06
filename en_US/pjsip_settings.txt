@@ -98,3 +98,5 @@ pjsip_settings.allow_wildcard_certs.tooltip =
     alt names of type DNS for TLS transport types. Names must start with the wildcard. Partial wildcards, e.g. 'f.example.com'
     and 'foo..com' are not allowed. As well, names only match against a single level meaning '.example.com' matches 'foo.example.com',
     but not 'foo.bar.example.com'.
+pjsip_settings.external_signaling_port = External Signaling Port
+pjsip_settings.external_signaling_port.tooltip = External port for SIP signaling.

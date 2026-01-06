@@ -321,3 +321,8 @@ extensions.sms_number.tooltip =
     A number from an SMS provider for sending and receiving SMS on the attached devices of this extension.
 extensions.global_max_reached = The current server license has surpassed the allowable limit for extensions.
 extensions.device_duplicated_on_tenant = The username of the device "{0}" is already taken or reserved, please choose another name.
+extensions.max_contacts.too_high = The 'Max Contacts' field cannot exceed a value of {0}. Ensure that the number entered is {0} or less.
+extensions.callback_on_busy_transfer = Call Back on Busy Transfer
+extensions.callback_on_busy_transfer.tooltip = When enabled, if the destination is busy during a blind transfer, the call will automatically be transferred back to this extension.
+extensions.ai_transcription = Recordings Transcription
+extensions.ai_transcription.tooltip = When enabled, this will transcribe the voicemail recording and send the transcription as part of the email notification.

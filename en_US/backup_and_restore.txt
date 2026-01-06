@@ -79,4 +79,7 @@ backup_and_restore.old_backup =
 	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Your backup must be at least
 	from a version greater  than {3}
 backup_and_restore.addons = Add-ons
-backup_and_restore.addons.tooltip = It allows you to select the add-ons to which the database will be backed up
+backup_and_restore.addons.tooltip = This field allows you to specify which add-ons' databases you want to include in your backup.
+backup_and_restore.uuid = Backup Identifier
+backup_and_restore.uuid.tooltip = A unique reference used for CLI tools, automation, and support.
+backup_and_restore.uuid.copied = Backup identifier copied to clipboard!

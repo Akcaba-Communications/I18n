@@ -35,3 +35,6 @@ time_group.tuesday = Tuesday
 time_group.wday_end = Week Day Finish
 time_group.wday_start = Week Day Start
 time_group.wednesday = Wednesday
+time_group.validation.multiple_months =
+    Row {0}: Time groups cannot span across multiple months in a single range. Please create separate ranges for each
+    month (e.g., October 25–31 and November 1–3) to ensure proper functionality.

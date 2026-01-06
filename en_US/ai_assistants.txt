@@ -1,10 +1,13 @@
 ai_assistants = AI Assistants
 ai_api_keys = API Keys
+ai_tools = AI Tools
 menu.ai_assistants = {ai_assistants}
 menu.ai_api_keys  = {ai_api_keys}
+menu.ai_tools  = {ai_tools}
 ai_assistants.unlicensed = {sms.unlicensed}
 module.ai_api_keys = AI API Keys
 module.ai_assistants = {ai_assistants}
+module.ai_tools = {ai_tools}
 ai_assistants.description = {description}
 ai_assistants.description.tooltip = A short description to identify this item
 ai_assistants.api_key = {voice_hub.api_key}
@@ -76,3 +79,65 @@ ai_assistants.notifications_email = Notifications E-mail Addresses
 ai_assistants.notifications_email.tooltip =
     E-mail addresses to send the conversation summary or any requested data. Keep in mind that you must instruct the
     AI to send an e-mail after finishing the conversation.
+ai_assistants.temperature = Temperature
+ai_assistants.temperature.tooltip =
+    What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while
+    lower values like 0.2 will make it more focused and deterministic.
+ai_assistants.validation.temperature.range =
+    You must provide a valid numeric value between zero and two for the "Temperature" field.
+ai_tools.general = {vitalpbx.general}
+ai_tools.ai_api_key = {voice_hub.api_key}
+ai_tools.ai_api_key.tooltip = The API Key to use for the features enabled on this module.
+ai_tools.voicemail_transcription = Voicemail Transcription
+ai_tools.voicemail_transcription.tooltip = When enabled, a checkbox will appear for each extension to toggle transcription on or off.
+ai_tools.call_recordings_transcription = Call Recordings Transcription
+ai_tools.call_recordings_transcription.tooltip = When enabled, An icon will appear in the CDR module for transcribing call recordings.
+ai_tools.validation.no_api_key = No API Key selected. Please choose an API Key to enable the AI Transcription features.
+ai_assistants.validation.api_key_in_use_by_tools = This API Key cannot be deleted as it is currently in use by the AI Tools module.
+ai_tools.language = Language
+ai_tools.language.tooltip =
+    It sets the language of the input audio for transcription. Choosing the correct language improves transcription accuracy.
+    When 'Auto' is selected, the AI will try to automatically detect the language.
+ai_tools.auto = Auto
+ai_tools.temperature = Temperature
+ai_tools.temperature.tooltip =
+    This setting adjusts the variability of the transcription results. Higher values (e.g., 0.8) make the transcription
+    more creative and flexible, while lower values (e.g., 0.2) make it more precise and consistent. If set to 0,
+    the AI will automatically fine-tune the setting for optimal accuracy.
+ai_tools.pbx_assistant = PBX Assistant
+ai_tools.pbx_assistant.tooltip =
+    When enabled, a chatbot icon will appear in the top navbar, allowing users to chat with an AI assistant specialized
+    in the PBX configurations.
+ai_tools.pbx_assistant.disable = The PBX Assistant is currently disabled. To enable it, navigate to the AI Tools module.
+conversational_ai = Conversational AI
+menu.conversational_ai = {conversational_ai}
+module.conversational_ai = {conversational_ai}
+conversational_ai.general = {vitalpbx.general}
+conversational_ai.description = {ai_assistants.description}
+conversational_ai.description.tooltip = A short description
+conversational_ai.instructions = {ai_assistants.instructions}
+conversational_ai.instructions.tooltip =
+    The default system instructions (i.e. system message) prepended to model calls. This field allows you to guide
+    the model on desired responses. The model can be instructed on response content and format, (e.g. "be extremely
+    succinct", "act friendly", "here are examples of good responses") and on audio behavior (e.g. "talk quickly",
+    "inject emotion into your voice", "laugh frequently"). The instructions are not guaranteed to be followed by
+    the model, but they provide guidance to the model on the desired behavior.
+conversational_ai.api_key = {ai_assistants.api_key}
+conversational_ai.api_key.tooltip = {ai_assistants.api_key.tooltip}
+conversational_ai.model = {ai_assistants.model}
+conversational_ai.model.tooltip = The GPT model to utilize.
+conversational_ai.voice = Voice
+conversational_ai.voice.tooltip = The voice the AI will use to respond.
+conversational_ai.providers.twilio = Twilio
+conversational_ai.provider = Provider
+conversational_ai.provider.tooltip = The voice provider that will handle the media stream for a seamless bidirectional communication in real time.
+conversational_ai.webhook_url = Webhook URL
+conversational_ai.webhook_url.tooltip = The Webhook URL to set up in your VoIP provider portal.
+conversational_ai.url_copied = The Webhook URL is now in your clipboard!
+ai_assistants.transcription_model = Transcription Model
+ai_assistants.transcription_model.tooltip = The model used to convert caller audio into text before sending it to AI Assistants for processing.
+ai_tools.transcription_model = {ai_assistants.transcription_model}
+ai_tools.transcription_model.tooltip = The model used to convert voicemail audio into text.
+ai_assistants.agent_unlinked =
+    The OpenAI Agent linked to this item has been deleted. To continue using AI features, please update this item to
+    create a new OpenAI Agent.

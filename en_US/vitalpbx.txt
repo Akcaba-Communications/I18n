@@ -239,3 +239,12 @@ vitalpbx.setup.no_user = You haven't provide a valid username
 menu.apps = Apps
 vitalpbx.core = Core
 vitalpbx.unknown = Unknown
+vitalpbx.no_global_limits =
+    Global limits are turned off. This could affect system performance based on your server’s workload and capabilities.
+vitalpbx.global_limits_exceeded =
+    Some global limit parameters are set higher than recommended. This might slow down your system depending
+    on how it's used and the server’s capacity.
+vitalpbx.ai_help.tooltip = Ask the AI
+vitalpbx.patch.no_valid_parameters = It looks like you didn't provide any valid information to update. Please double-check and send the necessary details.
+vitalpbx.validation.record_is_being_used_2 = The record %s is being used by the %s module in the %s item.
+vitalpbx.apply_config.sr = Apply Changes

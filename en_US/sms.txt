@@ -121,3 +121,5 @@ sms.provider.voip_innovations = VoIP Innovations
 sms.events_url = {wa.webhook_url}
 sms.events_url.tooltip = {wa.webhook_url.tooltip}
 sms.provider.flowroute = Flowroute
+sms.provider.wic-sms = Way Interactive Convergence
+sms.status.undelivered = Undelivered

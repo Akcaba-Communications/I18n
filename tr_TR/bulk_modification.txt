@@ -36,4 +36,8 @@ bulk_modification.validations.no_extensions = Değiştirilecek hiçbir dahili se
 bulk_modification.validations.no_field = Değiştirilecek hiçbir alan seçmediniz.
 bulk_modification.validations.invalid_field = Geçersiz bir alan seçtiniz.
 bulk_modification.field.generate_hints = {extensions.diversion_hints}
-
+bulk_modification.field.vm_busy_prompt = Sesli Posta Meşgul Uyarısı
+bulk_modification.field.vm_unav_prompt = Sesli Posta Kullanılamıyor Uyarısı
+bulk_modification.field.callback_on_busy_transfer = {extensions.callback_on_busy_transfer}
+bulk_modification.field.ai_transcription = Sesli Mesaj Kayıtlarının Dökümü
+bulk_modification.field.cid_on_diversions = {extensions.cid_on_diversions}

@@ -78,4 +78,9 @@ backup_and_restore.cannot_delete_group = Yedekleme grubu silinemez.
 backup_and_restore.old_backup =
 	Backups from version {0} cannot be restored on {1} with versions greater than {2}. Yedeklemeniz en az
 	{3} üzeri bir sürümden olmalıdır.
+backup_and_restore.addons = Eklentilrt
+backup_and_restore.addons.tooltip = Bu alan, yedeklemenize dahil etmek istediğiniz eklenti veritabanlarını belirlemenizi sağlar.
+backup_and_restore.uuid = Yedekleme Tanımlayıcı
+backup_and_restore.uuid.tooltip = CLI araçları, otomasyon ve destek için kullanılan benzersiz bir referans.
+backup_and_restore.uuid.copied = Yedekleme tanımlayıcı panoya kopyalandı!
 

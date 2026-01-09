@@ -24,13 +24,11 @@ dhcpsettings.mac = MAC Adresi
 dhcpsettings.minutes = Dakikalar
 dhcpsettings.ntp = NTP Sunucusu
 dhcpsettings.ntp.tooltip = Ağ Zaman Protokolü (NTP), internet üzerinden bilgisayar sistemleri arasında saatleri senkronize eden bir ağ protokolüdür.
-dhcpsettings.opt66_epm = BitişNoktası Yöneticisi için Kullan
-dhcpsettings.opt66_epm.tooltip = Yukarıda Seçenek 66 için verilen adrese bağlı olarak BitişNoktası Yöneticisi için Seçenek 66 adresini otomatik olarak biçimlendirin. Bu, yukarıdaki Seçenek 66 adresine http:// öneki getirilerek sonuna /xepm-provision/ ilave edilerek yapılacaktır. Bunun düzenli çalışabilmesi, yukarıda Seçenek 66 için girilen IP adresinin yalnızca sunucunun IP adresi ya da sunucu adını içermesine bağlıdır. 
 dhcpsettings.range_end = Bitiş Adresi
 dhcpsettings.range_end.tooltip = Ağınızda dinamik IP adresi olarak ayrılabilen son adres.
 dhcpsettings.range_start = Başlangıç Adresi
 dhcpsettings.range_start.tooltip = Ağınızda dinamik IP adresi olarak ayrılabilen ilk adres.
-dhcpsettings.seconds = Saniyeler
+dhcpsettings.seconds = Saniye
 dhcpsettings.tftp = Seçenek 66
 dhcpsettings.tftp.tooltip = Seçenek 66, IP telefonlarının yapılandırması için bir URL sağlar. BitişNoktası Yöneticisi, IP telefonlarına HTTP isteğine yanıt olarak yapılandırma bilgileri sağlar. Bu durumda istek URL'sinin formatı http://[pbx-ip-adresi]/xepm-provizyon/ şeklindedir. Seçenek 66 alanında PBX IP adresini veya sunucu adını tanımlar ve 'BitişNoktası Yöneticisi İçin Kullan' onay kutusunu işaretlerseniz, URL'nin doğru biçimi otomatik olarak oluşturulur. Eğer /tftpboot dizininde önceden hazırlanmış IP telefon konfigürasyon dosyalarınız varsa, PBX IP adresini veya sunucu adını Seçenek 66 alanına girmeli ve 'BitişNoktası Yöneticisi İçin Kullan' onay kutusunun işaretini kaldırmalısınız.
 dhcpsettings.validation.dns_primary = Geçersiz Birincil DNS
@@ -57,4 +55,9 @@ dhcp_server = DHCP Sunucusu
 menu.dhcp_settings = {dhcp_server}
 module.dhcpsettings ={dhcp_server}
 menu.dhcp_server = {dhcp_server}
-
+dhcpsettings.interface.all = Tüm Arayüzler (varsayılan)
+dhcpsettings.interface = Ağ Arayüzü
+dhcpsettings.interface.tooltip = dnsmasq'ın DHCP ve DNS hizmetleri sağlaması gereken ağ arayüzü.
+dhcpsettings.dhcp-authoritative = Yetkili DHCP Sunucusu
+dhcpsettings.dhcp-authoritative.tooltip =
+    Bu dnsmasq öğesini, bu ağ için birincil DHCP sunucusu olarak işaretleyin. Daha hızlı IP ataması sağlar ve istemcilerin eski kiralamaları serbest bırakmasını garanti eder. Bu ağda başka hiçbir DHCP sunucusu (örneğin, yönlendiriciniz) etkin değilse etkinleştirin.
